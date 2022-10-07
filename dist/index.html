@@ -36,7 +36,10 @@
 
     <!-- Skills section -->
     <div id="skills" class="flex flex-col space-y-2 px-2 w-full">
-      <p class="font-semibold border-b-2 border-gray-400">Skills</p>
+      <div class="flex items-center border-b-2 border-gray-400">
+        <img src="skills.png" class="h-4 pr-2"/>
+        <p class="font-semibold">Skills</p>
+      </div>
       <div class="flex flex-wrap text-sm space-x-2">
         <p class="font-bold">&#x2022; Android Framework (AOSP) Architecture</p>
         <p class="font-bold">&#x2022; Android Location Stack</p>
@@ -55,11 +58,14 @@
         <p class="font-bold">&#x2022; Java</p>
         <p>&#x2022; Python</p>
         <p>&#x2022; Rust</p>
+        <p>&#x2022; Javascript</p>
         <p class="px-2">|</p>
         <p>&#x2022; Blazor .NET WebAssembly PWA</p>
         <p>&#x2022; Angular</p>
         <p>&#x2022; Vue</p>
         <p>&#x2022; ASP.NET</p>
+        <p>&#x2022; Firebase</p>
+        <p>&#x2022; Sqlite</p>
       </div>
       <div class="flex flex-wrap text-sm space-x-2">
         <p class="font-bold">&#x2022; Mentoring Junior Devs</p>
@@ -72,8 +78,14 @@
 
     <!-- Experience section -->
     <div id="experience" class="flex flex-col space-y-2 px-2 w-full">
-      <p class="font-semibold border-b-2 border-gray-400">Experience - Qualcomm (2009-now) (13.2 years) (Staff Engineer - since 2020)</p>
-      <p class="font-semibold w-max pr-4">Android Location Stack Development (2016-now)</p>
+      <div class="flex items-center border-b-2 border-gray-400">
+        <img src="tie.png" class="h-4 pr-2"/>
+        <p class="font-semibold">Experience - <span class="text-qualcomm font-bold">Qualcomm</span> (2009-present) (13.2 years) (Staff Engineer - since 2020)</p>
+      </div>
+      <div class="flex items-center">
+        <img src="android.png" class="h-4 pr-2"/>
+        <p class="font-semibold text-qualcomm/90">Android Location Stack Development (2016-present)</p>
+      </div>
       <div class="border-l-2 pl-2 text-xs">
         <p>&#x2022; Joined Android team during Android 8 (Oreo) upgrade.</p>
         <p class="font-bold">&#x2022; Designed and Implemented Location stack for Project Treble which brought in major Architecture update with system vendor split.</p>
@@ -82,27 +94,59 @@
         <p class="font-bold">&#x2022; Designed and Implemented Precise Positioning feature over a Qualcomm SDK meant to deliver premium features to Third Party Android App developers.</p>
         <p>&#x2022; Support any location module failures on CTS/VTS validation suites.</p>
         <p class="font-bold">&#x2022; Enhance and support Android Location SDK which enables chipset OEMs to exercise Qualcomm Location module capabilities.</p>
-        <p>&#x2022; Guide and train customer engineering teams and occasionally meet with customers on critical location issues.</p>
+        <p>&#x2022; Updated Location module build system from mk to bp build files to adapt to Android's new Soong build system.</p>
+        <p class="font-bold">&#x2022; Guide and train customer engineering teams and occasionally meet with customers on critical location issues.</p>
         <p>&#x2022; Work with various Android tech teams for location features, especially Data, Telephony, and Core teams.</p>
-        <p>&#x2022; Mentor and guide couple of junior developers across different feature implementations.</p>
+        <p class="font-bold">&#x2022; Mentor and guide couple of junior developers across different feature implementations.</p>
+        <p>&#x2022; Mentored several interns for implementing a variety of tools to enhance developer productivity.</p>
       </div>
-      <p class="font-semibold w-max pr-4">ThreadX (IoT) Location Stack Development (2016-now)</p>
+      <div class="flex items-center">
+        <img src="iot.png" class="h-4 pr-2"/>
+        <p class="font-semibold text-qualcomm/90">ThreadX (IoT) Location Stack Development (2016-present)</p>
+      </div>
+      <div class="border-l-2 pl-2 text-xs">
+        <p>&#x2022; Develop and support Android Location stack (Vendor AIDL service for IGnss interface)</p>
+        <p>&#x2022; Android Location Stack</p>
+        <p>&#x2022; Android App Dev</p>
+        <p>&#x2022; Android App Dev</p>
+        <p>&#x2022; Android App Dev</p>
+        <p>&#x2022; Android App Dev</p>
+      </div>
+      <div class="flex items-center">
+        <img src="wifi.png" class="h-4 pr-2"/>
+        <p class="font-semibold text-qualcomm/90">ALG Development (2014-2016)</p>
+      </div>
+      <div class="border-l-2 pl-2 text-xs">
+        <p>&#x2022; Develop and support Android Location stack (Vendor AIDL service for IGnss interface)</p>
+        <p>&#x2022; Android Location Stack</p>
+        <p>&#x2022; Android App Dev</p>
+        <p>&#x2022; Android App Dev</p>
+        <p>&#x2022; Android App Dev</p>
+      </div>
+      <div class="flex items-center">
+        <img src="ip.png" class="h-4 pr-2"/>
+        <p class="font-semibold text-qualcomm/90">TCP/IP Stack (2009-2016)</p>
+      </div>
       <div class="border-l-2 pl-2 text-xs">
         <p>&#x2022; Develop and support Android Location stack (Vendor AIDL service for IGnss interface)</p>
         <p>&#x2022; Android Location Stack</p>
         <p>&#x2022; Android App Dev</p>
       </div>
-      <p class="font-semibold w-max pr-4">ALG Development (2014-2016)</p>
-      <div class="border-l-2 pl-2 text-xs">
-        <p>&#x2022; Develop and support Android Location stack (Vendor AIDL service for IGnss interface)</p>
-        <p>&#x2022; Android Location Stack</p>
-        <p>&#x2022; Android App Dev</p>
+    </div>
+
+    <br/>
+
+    <!-- Education section -->
+    <div id="education" class="flex flex-col space-y-2 px-2 w-full">
+      <div class="flex items-center border-b-2 border-gray-400">
+        <img src="college.png" class="h-4 pr-2"/>
+        <p class="font-semibold">Education - <span class="text-green-800 font-bold">B.Tech (Information and Communication Technology)</span> (DA-IICT) (2005-2009)</p>
       </div>
-      <p class="font-semibold w-max pr-4">TCP/IP Stack (2009-2016)</p>
-      <div class="border-l-2 pl-2 text-xs">
-        <p>&#x2022; Develop and support Android Location stack (Vendor AIDL service for IGnss interface)</p>
-        <p>&#x2022; Android Location Stack</p>
-        <p>&#x2022; Android App Dev</p>
+      <div class="flex border-l-2 pl-2 text-xs space-x-2">
+        <p>&#x2022; Won several coding contests</p>
+        <p>&#x2022; Maze traversal robot</p>
+        <p>&#x2022; Library management system for an NGO</p>
+        <p>&#x2022; College Election Portal</p>
       </div>
     </div>
 

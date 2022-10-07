@@ -6,7 +6,9 @@ module.exports = {
       colors: {
         'linkedin': '#0a66c2',
         'github': '#171515',
-        'google': '#bb001b'
+        'google': '#bb001b',
+        'qualcomm': '#3c5ccc',
+        'android': '#a4c639'
       }  
     },
   },
