@@ -555,6 +555,14 @@ video {
   margin: 0.5rem;
 }
 
+.m-8 {
+  margin: 2rem;
+}
+
+.m-10 {
+  margin: 2.5rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -583,6 +591,18 @@ video {
   margin-bottom: 2rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -593,6 +613,18 @@ video {
 
 .h-4 {
   height: 1rem;
+}
+
+.h-4\/5 {
+  height: 80%;
+}
+
+.h-1\/2 {
+  height: 50%;
+}
+
+.max-h-screen {
+  max-height: 100vh;
 }
 
 .w-screen {
@@ -636,6 +668,16 @@ video {
   border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
 }
 
+.columns-2 {
+  -moz-columns: 2;
+       columns: 2;
+}
+
+.columns-3 {
+  -moz-columns: 3;
+       columns: 3;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -650,6 +692,22 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-16 {
+  gap: 4rem;
 }
 
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
@@ -728,6 +786,11 @@ video {
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-blue-900 {
+  --tw-border-opacity: 1;
+  border-color: rgb(30 58 138 / var(--tw-border-opacity));
 }
 
 .p-2 {
@@ -838,7 +901,30 @@ video {
           text-decoration-line: underline;
 }
 
+@media (min-width: 768px) {
+  .md\:m-10 {
+    margin: 2.5rem;
+  }
+
+  .md\:m-12 {
+    margin: 3rem;
+  }
+
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .md\:columns-2 {
+    -moz-columns: 2;
+         columns: 2;
+  }
+}
+
 @media (min-width: 1024px) {
+  .lg\:row-span-4 {
+    grid-row: span 4 / span 4;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
@@ -849,6 +935,20 @@ video {
 
   .lg\:w-2\/5 {
     width: 40%;
+  }
+
+  .lg\:w-3\/4 {
+    width: 75%;
+  }
+
+  .lg\:columns-2 {
+    -moz-columns: 2;
+         columns: 2;
+  }
+
+  .lg\:columns-3 {
+    -moz-columns: 3;
+         columns: 3;
   }
 
   .lg\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
